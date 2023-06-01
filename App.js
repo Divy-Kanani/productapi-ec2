@@ -9,7 +9,7 @@ const deleteproduct = require('./Routes/deleteProduct')
 const updateProduct = require('./Routes/updateProduct')
 
 app.use(express.json());
-const port = 5000;
+const port = 8080;
 
 
 app.use("/", Products)
